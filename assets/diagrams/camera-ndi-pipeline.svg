@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 530" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#38bdf8"/></marker></defs>
+  <rect width="960" height="530" rx="12" fill="#0f172a"/>
+  <text x="40" y="40" fill="#e2e8f0" font-size="21" font-weight="700">Camera input: gameplay, pillar interaction and effects</text>
+  <text x="40" y="69" fill="#94a3b8" font-size="12">Camera integration and engineering responsibilities</text>
+  <text x="40" y="108" fill="#fb7185" font-size="13" font-weight="700">BOXING / RACING · MAIN GAMEPLAY</text>
+  <g fill="#4c0519" stroke="#fb7185"><rect x="40" y="125" width="230" height="75" rx="10"/><rect x="365" y="125" width="230" height="75" rx="10"/><rect x="690" y="125" width="230" height="75" rx="10"/></g>
+  <g fill="#fecdd3" text-anchor="middle"><text x="155" y="153" font-size="16" font-weight="600">ZED camera input</text><text x="155" y="178" font-size="12">Shared tracking integration</text><text x="480" y="153" font-size="16" font-weight="600">Unreal gameplay</text><text x="480" y="178" font-size="12">Walter: core game logic / input</text><text x="805" y="153" font-size="16" font-weight="600">Main screen</text><text x="805" y="178" font-size="12">Boxing and Racing</text></g>
+  <text x="40" y="244" fill="#2dd4bf" font-size="13" font-weight="700">BOXING / RACING · PILLAR INTERACTION</text>
+  <g fill="#134e4a" stroke="#2dd4bf"><rect x="40" y="261" width="230" height="75" rx="10"/><rect x="365" y="261" width="230" height="75" rx="10"/><rect x="690" y="261" width="230" height="75" rx="10"/></g>
+  <g fill="#99f6e4" text-anchor="middle"><text x="155" y="289" font-size="16" font-weight="600">OAK camera data</text><text x="155" y="314" font-size="12">DepthAI SDK / Python handling</text><text x="480" y="289" font-size="16" font-weight="600">Unity · depth%</text><text x="480" y="314" font-size="12">Closer spectators → higher value</text><text x="805" y="289" font-size="16" font-weight="600">Spectator assistance</text><text x="805" y="314" font-size="12">Boxing power / Racing speed</text></g>
+  <text x="40" y="380" fill="#fbbf24" font-size="13" font-weight="700">MOVIE TRAILER · NDI EFFECTS</text>
+  <g fill="#422006" stroke="#fbbf24"><rect x="40" y="397" width="230" height="75" rx="10"/><rect x="365" y="397" width="230" height="75" rx="10"/><rect x="690" y="397" width="230" height="75" rx="10"/></g>
+  <g fill="#fde68a" text-anchor="middle"><text x="155" y="425" font-size="16" font-weight="600">OAK camera input</text><text x="155" y="450" font-size="12">Camera feeds</text><text x="480" y="425" font-size="16" font-weight="600">Unity / NDI SDK</text><text x="480" y="450" font-size="12">Camera layout and video output</text><text x="805" y="425" font-size="16" font-weight="600">TouchDesigner</text><text x="805" y="450" font-size="12">Effects created by artists</text></g>
+  <g stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"><path d="M270 162H359"/><path d="M595 162H684"/><path d="M270 298H359"/><path d="M595 298H684"/><path d="M270 434H359"/><path d="M595 434H684"/></g>
+  <text x="40" y="508" fill="#94a3b8" font-size="12">OAK integration: Walter · ZED tracking: shared · Unreal core gameplay: Walter · TD effects: artists</text>
+</svg>
