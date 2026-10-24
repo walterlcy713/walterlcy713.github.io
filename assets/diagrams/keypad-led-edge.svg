@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+  <rect width="900" height="440" rx="12" fill="#0f172a"/>
+  <text x="450" y="38" text-anchor="middle" fill="#e2e8f0" font-size="19" font-weight="700">Casino table edge layer — dealer keypads &amp; table lights</text>
+
+  <!-- Row A: input path -->
+  <rect x="40" y="80" width="110" height="64" rx="10" fill="#1e293b" stroke="#475569"/>
+  <text x="95" y="108" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600">Dealer</text>
+  <text x="95" y="126" text-anchor="middle" fill="#94a3b8" font-size="10">buttons · knobs</text>
+
+  <line x1="150" y1="112" x2="205" y2="112" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="72" width="180" height="80" rx="10" fill="#1e293b" stroke="#475569"/>
+  <text x="300" y="98" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600">Keypad hardware</text>
+  <text x="300" y="116" text-anchor="middle" fill="#94a3b8" font-size="10">Stream Deck · StreamDock</text>
+  <text x="300" y="132" text-anchor="middle" fill="#94a3b8" font-size="10">Keys · knobs · LEDs</text>
+
+  <line x1="390" y1="112" x2="445" y2="112" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="445" y1="126" x2="390" y2="126" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="450" y="64" width="210" height="96" rx="10" fill="#134e4a" stroke="#2dd4bf"/>
+  <text x="555" y="90" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="700">Keypad framework (Go)</text>
+  <text x="555" y="108" text-anchor="middle" fill="#99f6e4" font-size="11">Multi-game dealer controls</text>
+  <text x="555" y="124" text-anchor="middle" fill="#99f6e4" font-size="11">Shared device interface</text>
+  <text x="555" y="140" text-anchor="middle" fill="#99f6e4" font-size="11">Text-icon fallbacks</text>
+
+  <line x1="660" y1="112" x2="725" y2="112" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="693" y="102" text-anchor="middle" fill="#64748b" font-size="10">WebSocket</text>
+
+  <rect x="730" y="80" width="130" height="64" rx="10" fill="#1e293b" stroke="#475569"/>
+  <text x="795" y="108" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600">Game service</text>
+  <text x="795" y="126" text-anchor="middle" fill="#94a3b8" font-size="11">live game state</text>
+
+  <!-- Driver box under framework -->
+  <rect x="450" y="190" width="210" height="58" rx="10" fill="#1e293b" stroke="#818cf8"/>
+  <text x="555" y="212" text-anchor="middle" fill="#c7d2fe" font-size="13" font-weight="600">Go USB HID driver</text>
+  <text x="555" y="230" text-anchor="middle" fill="#94a3b8" font-size="11">StreamDock SDK replacement</text>
+  <line x1="555" y1="190" x2="555" y2="164" stroke="#818cf8" stroke-width="1.6" stroke-dasharray="4 3"/>
+
+  <!-- Row B: light feedback path -->
+  <line x1="795" y1="144" x2="795" y2="330" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="795" y1="330" x2="665" y2="330" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="450" y="298" width="210" height="64" rx="10" fill="#422006" stroke="#fbbf24"/>
+  <text x="555" y="324" text-anchor="middle" fill="#fde68a" font-size="14" font-weight="700">LED bridge (Go)</text>
+  <text x="555" y="342" text-anchor="middle" fill="#d6b25e" font-size="11">game state → light state</text>
+
+  <line x1="450" y1="316" x2="395" y2="304" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="450" y1="344" x2="395" y2="356" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <rect x="210" y="280" width="180" height="44" rx="10" fill="#1e293b" stroke="#475569"/>
+  <text x="300" y="299" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600">Arduino LED strips</text>
+  <text x="300" y="315" text-anchor="middle" fill="#94a3b8" font-size="10">game-state-driven effects</text>
+
+  <rect x="210" y="336" width="180" height="44" rx="10" fill="#1e293b" stroke="#475569"/>
+  <text x="300" y="355" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600">BlinkStick LEDs</text>
+  <text x="300" y="371" text-anchor="middle" fill="#94a3b8" font-size="10">game-state integration</text>
+
+  <text x="450" y="418" text-anchor="middle" fill="#64748b" font-size="12">Dealer inputs and shared game state · game-state-driven light feedback</text>
+</svg>
